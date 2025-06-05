@@ -10,7 +10,7 @@ CONFIG_PACKAGE_luci-app-linkease=y
 CONFIG_PACKAGE_luci-app-tailscale=n
 CONFIG_PACKAGE_luci-app-upnp=n
 CONFIG_PACKAGE_luci-app-wolplus=n
-CONFIG_PACKAGE_luci-app-vlmcsd=y
+CONFIG_PACKAGE_luci-app-vlmcsd=n
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 #参数调整
