@@ -54,7 +54,7 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 	#设置NSS版本
 	echo "CONFIG_NSS_FIRMWARE_VERSION_11_4=n" >> ./.config
 	if [[ "${WRT_CONFIG,,}" == *"ipq50"* ]]; then
-		echo "CONFIG_NSS_FIRMWARE_VERSION_12_2=y" >> ./.config
+		echo "CONFIG_NSS_FIRMWARE_VERSION_12_2=n" >> ./.config
 	else
 		echo "CONFIG_NSS_FIRMWARE_VERSION_12_5=y" >> ./.config
 	fi
